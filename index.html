@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
@@ -9,15 +10,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- Page Title -->
     <title>Asciana Hicks Website</title>
+    <style>
+    body{
+      font-family: 'Raleway', sans-serif;
+    }
+    #profile{
+      height: 300px;
+      width: auto;
+    }
+    </style>
+
+
   </head>
 
   <body class="black">
     <!-- ==== START Profile Header SECTION ==== -->
   	<div class="section blue-grey">
   		<div class="container center-align">
-				<h2 class="header light-blue accent-3">Hi! I'm Asciana</h2>
-				<h3 class="light-blue accent-3">Web Application Developer</h3>
-				<h5 class="light-blue accent-3">What can I code for you?</h5>
+        <div class="row">
+  				<img id="profile" class="responsive-img circle" src="images/ascianapicture.jpg">
+  			</div>
+				<h2 class="header light-blue-text">Hello! I'm Asciana. Welcome To My Website!</h2>
   		</div>
   	</div>
     <!-- ==== END Profile Header SECTION==== -->
@@ -27,11 +40,154 @@
   		<div class="container divider"></div>
   			<div class="container section center-align black">
   				<h2 class="blue-text">About Me</h2>
-  				<p class="flow-text white-text">My name is Asciana Hicks. I am African American, Puerto Rican, and Irish (atleast what I know of). I am 13 years old and I go to a STEM school! I enjoy sports such as Softball and Volleyball. My favorite color is Turquoise and I love dogs! I have 8 siblings and have owned more than 20 dogs. I was born in Pullman while my parents were finishing collage, and I enjoy playing games.
+  				<p class="flow-text white-text">My name is Asciana Hicks. I am African American, 13 year old girl. I go to a STEM school! I enjoy sports such as Softball and Volleyball. My favorite color is Turquoise and I love dogs! I have 8 siblings and have owned more than 20 dogs. I was born in Pullman while my parents were finishing collage, and I enjoy playing games.
   			</div>
   		</div>
   	</div>
   <!-- ==== END About Me SECTION ==== -->
+  <!-- ==== START My Portfolio SECTION ==== -->
+  <div id="portfolio" class="section"></div>
+    <div class="container divider"></div>
+      <div class="container section center-align">
+        <h2 class="blue-text">My Portfolio</h2>
+        <p class="flow-text  light-blue-text">Here are a few examples of my web application projects. You can click on the links in each card to get the source code! (See the <a href="https://github.com/shalkey/shalkey.github.io" target="_blank">source code</a> for <span class="italic">this</span> website on <a href="https://www.github.com/shalkey" target="_blank">GitHub</a>!)</p>
+<!-- More Projects -->
+        <div class="row">
+<!-- First Project Preview-->
+          <div class="col s12 m6 l3">
+            <div class="card small hoverable">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator full_img" src="http://vmshalkey.github.io/images/shoe_sale.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Shoe Sale<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/vmshalkey/rails_shoe_sale" target="_blank">Source Code</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Shoe Sale<i class="material-icons right">close</i></span>
+                <p>A Ruby on Rails application where users can put shoes up for sale and browse other postings to make purchases.</p>
+                <p><a href="https://github.com/vmshalkey/rails_shoe_sale" target="_blank">Source Code</a></p>
+              </div>
+            </div>
+          </div>
+<!-- Second Project Preview -->
+          <div class="col s12 m6 l3">
+            <div class="card small hoverable">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="http://vmshalkey.github.io/images/trivia.gif">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Trivia<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/vmshalkey/MEAN_trivia" target="_blank">Source Code</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Trivia<i class="material-icons right">close</i></span>
+                <p>A MEAN application that lets users answer trivia questions and posts their scores on a leaderboard.</p>
+                <p><a href="https://github.com/vmshalkey/MEAN_trivia" target="_blank">Source Code</a></p>
+              </div>
+            </div>
+          </div>
+<!-- Third Project Preview -->
+          <div class="col s12 m6 l3">
+            <div class="card small hoverable">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="http://vmshalkey.github.io/images/poke.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Poke<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/vmshalkey/LAMP_pokes" target="_blank">Source Code</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Poke<i class="material-icons right">close</i></span>
+                <p>A (L)AMP application using CodeIgniter that lets you poke your friends like on Facebook! </p>
+                <p><a href="https://github.com/vmshalkey/LAMP_pokes" target="_blank">Source Code</a></p>
+              </div>
+            </div>
+          </div>
+<!-- Fourth Project Preview -->
+          <div class="col s12 m6 l3">
+            <div class="card small hoverable">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="http://vmshalkey.github.io/images/playlist.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Playlist<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/vmshalkey/rails_playlist" target="_blank">Source Code</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Playlist<i class="material-icons right">close</i></span>
+                <p>A Ruby on Rails application where users can add songs to their playlist for others to see.</p>
+                <p><a href="https://github.com/vmshalkey/rails_playlist" target="_blank">Source Code</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- ==== END My Portfolio SECTION ==== -->
+  <!-- ==== START Contact Me SECTION ==== -->
+  	<div id="contact" class="section"></div>
+  		<div class="container divider"></div>
+  			<div class="container section center-align">
+  				<h2 class="blue-text">Contact Me</h2>
+  				<p class="flow-text">You can get in touch with me by clicking on the icons or send me a message using the form below. I would love to hear from you!</p>
+  <!-- Social Media Links -->
+  				<div class="row">
+  					<a href="sms:1-206-460-8763" class="tooltipped hide-on-med-and-up" data-position="bottom" data-delay="25" data-tooltip="iMessage" target="_blank">
+  						<img class="responsive-img" src="images/imessage-hex.png">
+  					</a>
+  					<a href="mailto:asciana2004@gmail.com" class="tooltipped" data-position="bottom" data-delay="25" data-tooltip="Email" target="_blank">
+  						<img class="responsive-img" src="images/mail-hex.png">
+  					</a>
+
+  				</div>
+  <!-- Send Message Form (Formspree)-->
+  				<div class="row">
+  					<form class="col s12 m12 l12" action="http://formspree.io/asciana2004@gmail.com" method="POST">
+  						<div class="row">
+  							<div class="input-field col s12 m6 l6">
+  								<i class="material-icons prefix">account_circle</i>
+  								<input id="name" type="text" class="validate" name="name">
+  								<label for="_name">Name</label>
+  							</div>
+  							<div class="input-field col s12 m6 l6">
+  								<i class="material-icons prefix">work</i>
+  								<input id="company" type="text" class="validate" name="company">
+  								<label for="company">Company</label>
+  							</div>
+  						</div>
+  						<div class="row">
+  							<div class="input-field col s12 m6 l6">
+  								<i class="material-icons prefix">email</i>
+  								<input id="email" type="email" class="validate" name="_replyto">
+  								<label for="email" data-error="invalid">Email</label>
+  							</div>
+  							<div class="input-field col s12 m6 l6">
+  								<i class="material-icons prefix">phone</i>
+  								<input id="phone_num" type="tel" class="validate" name="phone_num">
+  								<label for="phone_num">Phone Number</label>
+  							</div>
+  						</div>
+  						<div class="row">
+  							<div class="input-field col s12 m12 l12">
+  								<i class="material-icons prefix">mode_edit</i>
+  								<textarea id="message" class="materialize-textarea" name="body"></textarea>
+  								<label for="message">Message</label>
+  							</div>
+  						</div>
+  						<input type="hidden" name="_subject" value="Making a Connection" />
+  						<input type="hidden" name="_next" value="http://vmshalkey.github.io/thanks.html" />
+  						<input type="text" name="_gotcha" style="display:none" />
+  						<button class="btn waves-effect waves-light light-blue" type="submit" name="action">Submit
+  							<i class="material-icons right">send</i>
+  						</button>
+  					</form>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  <!-- ==== END Contact Me SECTION ==== -->
   <!-- ==== START Footer SECTION ==== -->
     	<footer class="page-footer blue">
     		<div class="container">
